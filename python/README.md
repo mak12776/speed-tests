@@ -6,15 +6,15 @@
 
 import collections
 
-def func1():
+def func1(size):
     result = []
-    for i in range(1000):
+    for i in range(size):
         result.append(1)
     return result
 
-def func2():
+def func2(size):
     result = collections.deque()
-    for i in range(1000):
+    for i in range(size):
         result.append(1)
     return list(result)
 
@@ -22,9 +22,9 @@ def func2():
 __result__:
 ```
 make[1]: Entering directory '/home/amin/coding/speed-tests/python'
-python3 -m timeit -n 1000 -s "import deque_list" "deque_list.func1()"
-1000 loops, best of 3: 76.8 usec per loop
-python3 -m timeit -n 1000 -s "import deque_list" "deque_list.func2()"
-1000 loops, best of 3: 84.1 usec per loop
+python3 -m timeit -n 100 -s "import deque_list" "deque_list.func1(10 ** 3)"
+100 loops, best of 3: 113 usec per loop
+python3 -m timeit -n 100 -s "import deque_list" "deque_list.func2(10 ** 3)"
+100 loops, best of 3: 126 usec per loop
 make[1]: Leaving directory '/home/amin/coding/speed-tests/python'
 ```
