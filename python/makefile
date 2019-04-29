@@ -8,7 +8,7 @@ README.md:
 	echo '### deque or list' >> $@
 
 	echo '`deque_list.py`:' >> $@
-	echo '```' >> $@
+	echo '```python' >> $@
 	cat deque_list.py >> $@
 	echo '```' >> $@
 
