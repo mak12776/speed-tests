@@ -2,7 +2,7 @@
 
 ### deque or list
 `deque_list.py`:
-```
+```python
 
 import collections
 
@@ -23,8 +23,8 @@ __result__:
 ```
 make[1]: Entering directory '/home/amin/coding/speed-tests/python'
 python3 -m timeit -n 1000 -s "import deque_list" "deque_list.func1()"
-1000 loops, best of 3: 77.5 usec per loop
+1000 loops, best of 3: 76.8 usec per loop
 python3 -m timeit -n 1000 -s "import deque_list" "deque_list.func2()"
-1000 loops, best of 3: 86.3 usec per loop
+1000 loops, best of 3: 84.1 usec per loop
 make[1]: Leaving directory '/home/amin/coding/speed-tests/python'
 ```
