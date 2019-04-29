@@ -21,7 +21,9 @@ commit-readme:
 	git add README.md
 	git commit -m "update README.md"
 
+timeit = python3 -m timeit -n 100
+
 deque_list:
-	python3 -m timeit -n 1000 -s "import deque_list" "deque_list.func1()"
-	python3 -m timeit -n 1000 -s "import deque_list" "deque_list.func2()"
+	$(timeit) -s "import deque_list" "deque_list.func1(10 ** 3)"
+	$(timeit) -s "import deque_list" "deque_list.func2(10 ** 3)"
 
