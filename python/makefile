@@ -18,6 +18,10 @@ README.md:
 	echo '```' >> $@
 
 
+commit-readme:
+	git add README.md
+	git commit -m "update README.md"
+
 deque_list:
 	python3 -m timeit -n 1000 -s "import deque_list" "deque_list.func1()"
 	python3 -m timeit -n 1000 -s "import deque_list" "deque_list.func2()"
