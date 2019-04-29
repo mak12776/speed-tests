@@ -1,11 +1,11 @@
 
-.PHONY:
+.PHONY: README.md
 README.md:
 
 	echo '# python timeit functions' > $@
 	echo >> $@
 
-	echo '## deque or list' >> $@
+	echo '### deque or list' >> $@
 
 	echo '`deque_list.py`:' >> $@
 	echo '```' >> $@
@@ -16,7 +16,6 @@ README.md:
 	echo '```' >> $@
 	$(MAKE) deque_list >> $@
 	echo '```' >> $@
-
 
 commit-readme:
 	git add README.md
