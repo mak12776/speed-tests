@@ -1,10 +1,6 @@
 
 .PHONY: README.md
 README.md:
-
-	echo '# python timeit functions' > $@
-	echo >> $@
-
 	echo '### deque or list' >> $@
 
 	echo '`deque_list.py`:' >> $@
