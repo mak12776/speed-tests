@@ -1,7 +1,7 @@
 
 .PHONY: README.md
 README.md:
-	echo '### deque or list' >> $@
+	echo '### deque or list' > $@
 
 	echo '`deque_list.py`:' >> $@
 	echo '```python' >> $@
