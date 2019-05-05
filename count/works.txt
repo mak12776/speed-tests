@@ -1,0 +1,18 @@
+==============================
+
+				No. line
+
+c				34
+python 3		9
+ruby			9
+
+==============================
+
+// cat main.c
+
+58 line, 12m
+
+// read file, count newline, print number of newline;
+
+1 line, 30s
+
