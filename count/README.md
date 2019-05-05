@@ -2,12 +2,12 @@
 # count new lines
 
 ## results
-| language      |   No. lines         |
-|:-------------:|:--------------------|
-| human			| 1					  |
-| ruby          | 9  				  |
-| python        | 9 				  |
-| c             | 34  				  |
+| language | No. lines |
+| --- | --- |
+| human readable | 1 |
+| ruby | 9 |
+| python | 9 |
+| c | 34 |
 
 
 ### human language
