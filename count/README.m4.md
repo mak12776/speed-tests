@@ -11,7 +11,7 @@ define(readfile,dnl
 ## results
 | language | No. lines |
 | --- | --- |
-| human readable | 1 |
+| human language | 1 |
 | ruby | 9 |
 | python | 9 |
 | c | 34 |
