@@ -19,7 +19,7 @@ read a file, count number of lines, print number of lines.
 ### ruby
 
 `count.rb`:
-```
+```ruby
 #!/usr/bin/ruby
 
 if ARGV.length != 1
@@ -35,7 +35,7 @@ puts File.foreach(ARGV0).inject(0) {|c, line| c+1}
 ### python
 
 `count.py`:
-```
+```python
 #!/usr/bin/python3
 
 import sys
@@ -51,7 +51,7 @@ print(sum(1 for line in open(sys.argv1)))
 ### c
 
 `count.c`:
-```
+```c
 
 #include <stdio.h>
 #include <errno.h>
