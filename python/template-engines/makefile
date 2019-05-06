@@ -5,6 +5,7 @@ pull-all:
 	-(cd jinja/ && git pull)
 	-(cd pycro/ && git pull)
 	-(cd preprocess/ && git pull)
+	-(cd genshi/ && git pull)
 
 README.md: create_readme.py
 	./create_readme.py README.md
